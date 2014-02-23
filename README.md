@@ -1,6 +1,6 @@
 # Shishiodoshi
 
-![Shishi-odoshi](https://gist.githubusercontent.com/toooooooby/9172769/raw/7aa3fefd4fb0a00ab91f9fad6f46545dfb6ee4ce/shishiodoshi_image.gif)
+![Shishi-odoshi(the original image is public domain,http://commons.wikimedia.org/wiki/File:Shishiodoshi.gif)](https://gist.githubusercontent.com/toooooooby/9172769/raw/7aa3fefd4fb0a00ab91f9fad6f46545dfb6ee4ce/shishiodoshi_image.gif)
 
 Daily Restarter for Travis-CI.
 
