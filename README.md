@@ -46,9 +46,33 @@ $ heroku addons:add scheduler:standard
 $ heroku addons:open scheduler
 ```
 
-For example.
+For example on `heroku addons:open scheduler`:
 
 ![Scheduler Example](https://gist.githubusercontent.com/toooooooby/9172769/raw/668a7c1f57165153dda1de221a504172a4c8648d/shishiodoshi-heroku-scheduled-jobs.jpg)
+
+
+Example results:
+
+```bash
+$ travis monitor -m                                                                [22:58:27]
+Monitoring 26 repositories:
+
+2014-02-24 01:XX:XX toooooooby/kagami#15 started
+2014-02-24 01:XX:XX toooooooby/kagami#15.3 started
+2014-02-24 01:XX:XX toooooooby/kagami#15.2 started
+2014-02-24 01:XX:XX toooooooby/yazawa#9 started
+2014-02-24 01:XX:XX toooooooby/yazawa#9.1 started
+2014-02-24 01:XX:XX toooooooby/yazawa#9.2 started
+2014-02-24 01:XX:XX toooooooby/kagami#15.1 started
+2014-02-24 01:XX:XX toooooooby/kagami#15.3 passed
+2014-02-24 01:XX:XX toooooooby/kagami#15.2 passed
+2014-02-24 01:XX:XX toooooooby/kagami#15 passed
+2014-02-24 01:XX:XX toooooooby/kagami#15.1 passed
+2014-02-24 01:XX:XX toooooooby/yazawa#9.1 passed
+2014-02-24 01:XX:XX toooooooby/yazawa#9.3 started
+2014-02-24 01:XX:XX toooooooby/yazawa#9.2 passed
+ :
+```
 
 ## refs.
 
