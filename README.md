@@ -20,6 +20,9 @@ $ cp config.yml.example config.yml
 $ # Edit config.yml ...
 
 # run for running
+$ travis token
+
+Your access token is XXXXXXXXXXXXXXXXXXXXXXX
 $  TRAVIS_TOKEN="YOUR_TRAVIS_TOKEN" rake
 ```
 
