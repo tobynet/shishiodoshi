@@ -37,11 +37,18 @@ $ git push heroku master
 
 $ heroku config:add TRAVIS_TOKEN="YOUR_TRAVIS_TOKEN"
 $ heroku run rake
+```
 
-# Settings for scheduler
+At last, please configure addon's scheduler.
+
+```
 $ heroku addons:add scheduler:standard
 $ heroku addons:open scheduler
 ```
+
+For example.
+
+![Scheduler Example](https://gist.githubusercontent.com/toooooooby/9172769/raw/668a7c1f57165153dda1de221a504172a4c8648d/shishiodoshi-heroku-scheduled-jobs.jpg)
 
 ## refs.
 
