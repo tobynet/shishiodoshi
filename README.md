@@ -49,15 +49,17 @@ $ heroku addons:add scheduler:standard
 $ heroku addons:open scheduler
 ```
 
+
+# Examples
+
 For example on `heroku addons:open scheduler`:
 
 ![Scheduler Example](https://gist.githubusercontent.com/toooooooby/9172769/raw/668a7c1f57165153dda1de221a504172a4c8648d/shishiodoshi-heroku-scheduled-jobs.jpg)
 
-
-Example results:
+Results on travis monitor on CLI:
 
 ```bash
-$ travis monitor -m                                                                [22:58:27]
+$ travis monitor -m
 Monitoring 26 repositories:
 
 2014-02-24 01:XX:XX toooooooby/kagami#15 started
