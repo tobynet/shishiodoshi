@@ -79,6 +79,10 @@ Monitoring 26 repositories:
  :
 ```
 
+## Known Issues
+
+* Get notification from travis-ci forcibly every scheduled day , if last test has been changed from red to green ;(
+
 ## refs.
 
 * [travis-ci/travis](https://github.com/travis-ci/travis#table-of-contents)
